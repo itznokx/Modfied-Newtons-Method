@@ -2,11 +2,12 @@
 #include <cmath>
 #include "NewtonModificado.h"
 
-#define constA      1.0
-#define episilon    pow(10,-4)
+#define constA          1.0
+#define episilon1       pow(10,-4)
+#define episilon2       pow(10,-8)
 
-using namespace std;
 
 int main (void){
+    std::cout << newtonModified(&func,&derivative,constA,0.5,pow(10,-4),pow(10,-8)) << std::endl;
     return 0;
 }
