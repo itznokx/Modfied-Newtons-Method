@@ -8,6 +8,6 @@
 
 
 int main (void){
-    std::cout << newtonModified(&func,&derivative,constA,0.5,pow(10,-4),pow(10,-8)) << std::endl;
+    std::cout << newtonModified(&func,&derivative,constA,0.5,episilon1,episilon2) << std::endl;
     return 0;
 }
