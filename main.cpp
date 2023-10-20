@@ -3,8 +3,8 @@
 #include "NewtonModificado.h"
 
 #define constA          1.0
-#define episilon1       pow(10,-4)
-#define episilon2       pow(10,-8)
+#define episilon1       1e-4
+#define episilon2       1e-8
 
 
 int main (void){
